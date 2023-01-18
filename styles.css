@@ -20,10 +20,11 @@ body{
     border-radius: 0.5em;
 }
 
-.conatainer{
+.container{
     margin: 1.25em auto;
     width: 33.75em;
     border-radius: 0.6em;
+    overflow: hidden;
     background-color: #416cea;
 }
 
@@ -88,6 +89,26 @@ body{
     cursor: pointer;
 }
 
+.grid-row{
+    margin: 0 auto;
+    display: flex;
+}
+
+.grid-box{
+    width: 5em;
+    height: 5em;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(white 1.37em, #416cea 1.43em);
+    cursor: pointer;
+}
+
 .hide{
     display: none;
 }
+
+#message {
+    margin-bottom: 1em;
+    color: #ffffff;
+    font-size: 1.2em;
+  }
